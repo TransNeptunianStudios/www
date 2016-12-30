@@ -2,20 +2,57 @@
 echo Cloning all relevant TNS repos
 echo Needs to be ran as root
 
-git clone https://github.com/TransNeptunianStudios/TheDonald.git
+
+if [ ! -d "$Knugen" ]; then
+  git clone https://github.com/TransNeptunianStudios/Knugen.git
+fi
+
+
+if [ ! -d "$PaintDryingSimulator" ]; then
+  git clone https://github.com/TransNeptunianStudios/PaintDryingSimulator.git
+fi
+
+
+if [ ! -d "$TiggSim" ]; then
+  git clone https://github.com/Reicher/TiggSim.git
+fi
+
+if [ ! -d "$Snatris" ]; then
+  git clone https://github.com/TransNeptunianStudios/Snatris.git
+fi
+cd Snatris
+npm install
+npm run deploy
+cd ..
+
+if [ ! -d "$TheDonald" ]; then
+  git clone https://github.com/TransNeptunianStudios/TheDonald.git
+fi
 cd TheDonald
 npm install
 npm run deploy
 cd ..
 
-git clone https://github.com/TransNeptunianStudios/Hultsvika.git
+if [ ! -d "$Hultsvika" ]; then
+  git clone https://github.com/TransNeptunianStudios/Hultsvika.git
+fi
 cd Hultsvika
 npm install
 npm run deploy
 cd ..
 
-#git clone https://github.com/TransNeptunianStudios/Triangulum-II.git
-#git clone https://github.com/TransNeptunianStudios/VikingRobotRampage.git
-#git clone https://github.com/TransNeptunianStudios/TheAttack.git
-#git clone https://github.com/TransNeptunianStudios/PaintDryingSimulator.git
-#git clone https://github.com/Reicher/TiggSim.git
+if [ ! -d "$Triangulum-II" ]; then
+  git clone https://github.com/TransNeptunianStudios/Triangulum-II.git
+fi
+
+if [ ! -d "$VikingRobotRampage-II" ]; then
+  git clone https://github.com/TransNeptunianStudios/VikingRobotRampage.git
+fi
+
+if [ ! -d "$TheAttack-II" ]; then
+  git clone https://github.com/TransNeptunianStudios/TheAttack.git
+fi
+
+if [ ! -d "$Parallax" ]; then
+  git clone https://github.com/Reicher/Parallax.git
+fi
