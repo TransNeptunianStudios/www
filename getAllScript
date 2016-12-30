@@ -1,1 +1,21 @@
 # A really cool script to clone all tns repos.
+echo Cloning all relevant TNS repos
+echo Needs to be ran as root
+
+git clone https://github.com/TransNeptunianStudios/TheDonald.git
+cd TheDonald
+npm install
+npm run deploy
+cd ..
+
+git clone https://github.com/TransNeptunianStudios/Hultsvika.git
+cd Hultsvika
+npm install
+npm run deploy
+cd ..
+
+#git clone https://github.com/TransNeptunianStudios/Triangulum-II.git
+#git clone https://github.com/TransNeptunianStudios/VikingRobotRampage.git
+#git clone https://github.com/TransNeptunianStudios/TheAttack.git
+#git clone https://github.com/TransNeptunianStudios/PaintDryingSimulator.git
+#git clone https://github.com/Reicher/TiggSim.git
