@@ -1,0 +1,33 @@
+[submodule "games/TheDonald"]
+	path = games/TheDonald
+	url = https://github.com/TransNeptunianStudios/TheDonald.git
+[submodule "games/Triangulum-III"]
+	path = games/Triangulum-III
+	url = https://github.com/TransNeptunianStudios/Triangulum-III
+[submodule "games/Snatris"]
+	path = games/Snatris
+	url = https://github.com/TransNeptunianStudios/Snatris
+[submodule "games/Hultsvika"]
+	path = games/Hultsvika
+	url = https://github.com/TransNeptunianStudios/Hultsvika
+[submodule "games/Triangulum-II"]
+	path = games/Triangulum-II
+	url = https://github.com/TransNeptunianStudios/Triangulum-II
+[submodule "games/VikingRobotRampage"]
+	path = games/VikingRobotRampage
+	url = https://github.com/TransNeptunianStudios/VikingRobotRampage
+[submodule "games/TheAttack"]
+	path = games/TheAttack
+	url = https://github.com/TransNeptunianStudios/TheAttack
+[submodule "games/Knugen"]
+	path = games/Knugen
+	url = https://github.com/TransNeptunianStudios/Knugen
+[submodule "games/PaintDryingSimulator"]
+	path = games/PaintDryingSimulator
+	url = https://github.com/TransNeptunianStudios/PaintDryingSimulator
+[submodule "games/Parallax"]
+	path = games/Parallax
+	url = https://github.com/Reicher/Parallax.git
+[submodule "games/TiggSim"]
+	path = games/TiggSim
+	url = https://github.com/Reicher/TiggSim
