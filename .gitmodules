@@ -6,3 +6,7 @@
 	path = games/Knugen
 	url = https://github.com/TransNeptunianStudios/Knugen
 	branch = release
+[submodule "games/Snatris"]
+	path = games/Snatris
+	url = https://github.com/TransNeptunianStudios/Snatris
+	branch = release
