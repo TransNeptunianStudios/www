@@ -1,6 +1,8 @@
 [submodule "games/TheDonald"]
 	path = games/TheDonald
 	url = https://github.com/TransNeptunianStudios/TheDonald
+	branch = release
 [submodule "games/Knugen"]
 	path = games/Knugen
 	url = https://github.com/TransNeptunianStudios/Knugen
+	branch = release
