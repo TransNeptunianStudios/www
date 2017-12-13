@@ -10,3 +10,6 @@
 	path = games/Snatris
 	url = https://github.com/TransNeptunianStudios/Snatris
 	branch = release
+[submodule "games/Lettris"]
+	path = games/Lettris
+	url = git@github.com:Reicher/Lettris.git
